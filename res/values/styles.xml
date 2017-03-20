@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LyTheme" parent="android:Theme.Holo.Light">
+        <item name="lyColor0">@color/colorRed</item>
+        <item name="lyColor1">@color/colorYellow</item>
+        <item name="lyColor2">@color/colorGreen</item>
+        <item name="lyColor3">@color/colorBlue</item>
+        <item name="lyColorColon">@color/colorDarkBlue</item>
+        <item name="lyThickness">@integer/lyThickness_4</item>
+        <item name="lyColonThickness">@integer/lyThickness_1</item>
+        <!--
+        <item name="lyTransformDuration">@integer/lyDuration_500</item>
+        <item name="lyLineDuration">@integer/lyDuration_4000</item>
+        -->
+    </style>
+
+    <style name="LyTheme3" parent="LyTheme">
+        <item name="lyColor0">@color/colorRed</item>
+        <item name="lyColor1">@color/colorYellow</item>
+        <item name="lyColor2">@color/colorGreen</item>
+        <item name="lyColor3">@color/colorBlue</item>
+        <item name="lyColorColon">@color/colorDarkBlue</item>
+        <item name="lyThickness">8</item>
+        <item name="lyColonThickness">1</item>
+    </style>
+
+</resources>
